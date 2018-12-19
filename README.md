@@ -9,6 +9,8 @@ A simple resume parser used for extracting information from resumes
 pip install pdfminer        # python 2
 pip install pdfminer.six    # python 3
 pip install doc2text
+pip install docx2txt
+pip install pandas
 ```
 
 - For NLP operations we use spacy and nltk. Install them using:
