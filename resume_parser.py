@@ -41,7 +41,7 @@ class ResumeParse(object):
 if __name__ == '__main__':
     resumes = []
     data = []
-    for root, directories, filenames in os.walk('resumes'):
+    for root, directories, filenames in os.walk('cvs'):
         for filename in filenames:
             file = os.path.join(root, filename)
             resumes.append(file)
