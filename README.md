@@ -12,18 +12,15 @@ pip install doc2text
 pip install docx2txt
 pip install pandas
 ```
-
 - For NLP operations we use spacy and nltk. Install them using:
-
-```bash
-# spaCy
+````
 pip install spacy
-python -m spacy download en_core_web_sm
-
-# nltk
 pip install nltk
-python -m nltk nltk.download('words')
 ```
+
+
+
+- Run `pre_requisites.py` to download additional data required by nltk and spaCy
 
 - Modify `skills.csv` as per your requirements
 
